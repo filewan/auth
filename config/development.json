@@ -1,0 +1,17 @@
+{
+    "app": {
+      "host": "0.0.0.0",
+      "port": 8000
+    },
+    "jwt": {
+      "privateKey": "config/jwtRS256.key",
+      "secret": "config/jwtRS256.key.pub",
+      "expiry": 86400
+    },
+    "db": {
+      "host": "mongodb://localhost/Authentication-test",
+      "port": 27017,
+      "reconnectInterval": 5000
+    }
+  }
+  
